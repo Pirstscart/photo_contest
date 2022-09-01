@@ -23,7 +23,23 @@ export default class Home extends Component {
                         <MDBCardBody>
                             <MDBCardText className="text-center">
                                 <h3 className="card-header text-primary">
-                                    <span><img src={logoo} width="500" /></span><br />
+                                    <span><img src={logoo} width="50%" /></span><br />
+                                    <u>หัวข้อการประกวด</u>
+                                </h3>
+                            </MDBCardText>
+                            <MDBCardText>
+                                <MDBRow className="black-text" style={{ fontSize: "16px" }}>
+                                    <MDBCol xs="1" lg="1" md="0" sm="0"></MDBCol>
+                                    <MDBCol xs="10" lg="10" md="12" sm="12">
+                                        1. Modern green building สถาปัตยกรรมร่วมสมัยอนุรักษ์สิ่งแวดล้อม <br />
+                                        2. Universal design สิ่งปลูกสร้างเพื่อมวลชน/รองรับทุกความต้องการ<br />
+                                        3. Good Way Save life ถนนดีชีวีมีสุข ต้นแบบการจราจรแห่งความปลอดภัย<br />
+                                    </MDBCol>
+                                    <MDBCol xs="1" lg="1" md="0" sm="0"></MDBCol>
+                                </MDBRow>
+                            </MDBCardText>
+                            <MDBCardText className="text-center">
+                                <h3 className="card-header text-primary">
                                     <u>กติกาการประกวดภาพถ่าย</u>
                                 </h3>
                             </MDBCardText>
@@ -49,6 +65,23 @@ export default class Home extends Component {
                                     </MDBCol>
                                     <MDBCol xs="1" lg="1" md="0" sm="0"></MDBCol>
                                 </MDBRow>
+                            </MDBCardText>
+                            <MDBCardText className="text-center">
+                                <h3 className="card-header text-primary">
+                                    <u>รางวัล</u>
+                                </h3>
+                            </MDBCardText>
+                            <MDBCardText>
+                                <MDBRow className="black-text" style={{ fontSize: "16px" }}>
+                                    <MDBCol xs="1" lg="1" md="0" sm="0"></MDBCol>
+                                    <MDBCol xs="10" lg="10" md="12" sm="12">
+                                        เงินรางวัลรวมมูลค่า 132,000 บาท
+                                    </MDBCol>
+                                    <MDBCol xs="1" lg="1" md="0" sm="0"></MDBCol>
+                                </MDBRow>
+                            </MDBCardText>
+                            <MDBCardText className="card-header text-center">
+                                <a className="btn btn-primary btn-lg" href="#"><u>คลิกเพื่อดาวโหลดเอกสารการสมัครที่นี่</u></a>
                             </MDBCardText>
                         </MDBCardBody>
                     </MDBCard>

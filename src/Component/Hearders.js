@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {
-    MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavbarToggler, MDBCollapse, 
+    MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavbarToggler, MDBCollapse,
 } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
 import logo from '../assets/logo.png'
@@ -25,16 +25,16 @@ export default class Hearders extends Component {
                     <MDBNavbarToggler className="black" onClick={this.toggleCollapse} />
                     <MDBCollapse id="navbarCollapse3" color="dark" dark isOpen={this.state.isOpen} navbar>
                         <MDBNavbarNav right>
-                            <MDBNavItem style={{fontSize:"18px", fontWeight: "bold"}}>
+                            <MDBNavItem style={{ fontSize: "18px", fontWeight: "bold" }}>
                                 <a className="nav-link black-text" href="#">หัวข้อประกวด</a>
                             </MDBNavItem>
-                            <MDBNavItem style={{fontSize:"18px", fontWeight: "bold"}}>
-                                <a className="nav-link black-text" href="#">รางวัล</a>
-                            </MDBNavItem>
-                            <MDBNavItem style={{fontSize:"18px", fontWeight: "bold"}}>
+                            <MDBNavItem style={{ fontSize: "18px", fontWeight: "bold" }}>
                                 <a className="nav-link black-text" href="#">กติกา</a>
                             </MDBNavItem>
-                            <MDBNavItem style={{fontSize:"18px", fontWeight: "bold"}}>
+                            <MDBNavItem style={{ fontSize: "18px", fontWeight: "bold" }}>
+                                <a className="nav-link black-text" href="#">รางวัล</a>
+                            </MDBNavItem>
+                            <MDBNavItem style={{ fontSize: "18px", fontWeight: "bold" }}>
                                 <a className="nav-link text-primary" href="#"><span className="rounded border border-primary p-1">ดาวน์โหลดเอกสาร</span></a>
                             </MDBNavItem>
                         </MDBNavbarNav>
